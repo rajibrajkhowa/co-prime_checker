@@ -41,5 +41,5 @@ fn main() {
     let b: u64 = b.trim().parse().expect("Please type a number");
 
     
-    println!("GCD of {} and {} is {}",a, b, coprime(a,b));
+    println!("Are {} and {} coprime ? {}",a, b, coprime(a,b));
 }
